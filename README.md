@@ -1,1 +1,1 @@
-# InnerCore mod toolchain contents that should be put into gitignore and mustn't be inside of the project
+# TypeScript declarations for developers that use KernelExtension mod API in their projects
