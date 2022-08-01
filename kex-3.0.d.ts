@@ -1792,7 +1792,7 @@ declare module KEX {
  * and adding some new features to the callback system.
  * @since 1.0
  */
-export namespace Callback {
+declare namespace Callback {
 
     export function addCallback(name: "KEX-InnerCoreIdsCached", func: () => void, priority?: number): void;
     export function addCallback(name: "PlayerJump", func: PlayerJumpFunction, priority?: number): void;
@@ -2132,7 +2132,7 @@ declare module KEX {
  * which is more convenient for JavaScript development.
  * @since 3.0
  */
-export namespace Commands {
+declare namespace Commands {
 
     /**
      * Same as [[KEX.CommandsModule.newEnum]].
@@ -3607,7 +3607,7 @@ declare module KEX {
  * module adding new methods or patching existing ones.
  * @since 1.0
  */
-export namespace Item {
+declare namespace Item {
 
     /**
      * Creates eatable item using specified parameters.
@@ -6789,7 +6789,7 @@ declare module KEX {
  * module adding new methods to register recipes of other types, not supported before.
  * @since 3.0
  */
-export namespace Recipes {
+declare namespace Recipes {
 
     /**
      * Adds new custom smithing table recipe
